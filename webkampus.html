@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STTIKOM Insan Unggul</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin: 0 0 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 0;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0044cc;
+        }
+
+        /* Programs Section */
+        #programs ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        #programs ul li {
+            background-color: #f4f4f4;
+            padding: 15px 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* News & Events Section */
+        .news-item {
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .news-item h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Form Styles */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        form input, form select, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #0044cc;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+        }
+
+        form button:hover {
+            background-color: #003399;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>STTIKOM Insan Unggul</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Profil Kampus</a></li>
+                    <li><a href="#programs">Program Studi</a></li>
+                    <li><a href="#news">Berita & Acara</a></li>
+                    <li><a href="#admissions">Pendaftaran</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h2>Selamat Datang di STTIKOM Insan Unggul</h2>
+            <p>Kampus yang Mempersiapkan Anda Menjadi Profesional di Era Digital</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Profil Kampus</h2>
+            <p>STTIKOM Insan Unggul adalah institusi pendidikan tinggi yang berfokus pada teknologi informasi dan komunikasi...</p>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs">
+        <div class="container">
+            <h2>Program Studi</h2>
+            <ul>
+                <li>Teknik Informatika</li>
+                <li>Sistem Informasi</li>
+                <li>Manajemen Informatika</li>
+                <li>Komputerisasi Akuntansi</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- News & Events Section -->
+    <section id="news">
+        <div class="container">
+            <h2>Berita & Acara</h2>
+            <div class="news-item">
+                <h3>Pengumuman Penerimaan Mahasiswa Baru 2025</h3>
+                <p>...</p>
+            </div>
+            <div class="news-item">
+                <h3>Workshop AI dan Data Science</h3>
+                <p>...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions">
+        <div class="container">
+            <h2>Pendaftaran Mahasiswa Baru</h2>
+            <form id="admissions-form">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="program">Program Studi:</label>
+                <select id="program" name="program">
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                    <option value="mi">Manajemen Informatika</option>
+                </select>
+
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Email: info@sttikom-insanunggul.ac.id</p>
+            <p>Telepon: (021) 123-4567</p>
+            <p>Alamat: Jl. Teknologi No. 1, Jakarta</p>
+        </div>
+    </footer>
+</body>
+</html>
